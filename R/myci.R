@@ -1,17 +1,16 @@
-#' 95% Confidence Interval
+#' Confidence Interval
 #'
-#' This function creates a 95% confidence interval for a given set of data
+#' This function creates a 95 percent confidence interval for a given set of data
 #'
 #' @param n the number of data points in the set
 #' @param data the data vector
 #'
-#' @return The 95% confidence interval
+#' @return The 95 percent confidence interval
 #'
 #' @examples
 #' myci(c(15,10,12,13,14))
 #'
 #' @export
-#'
 myci=function(data) {
   n=length(data)
   t=qt(.975,(n-1))
