@@ -8,7 +8,7 @@
 #' @return The 95% confidence interval
 #'
 #' @examples
-#' myci(5,c(15,10,12,13,14))
+#' myci(c(15,10,12,13,14))
 #'
 #' @export
 #'
